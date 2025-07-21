@@ -1,0 +1,81 @@
+
+
+
+{% block content %}
+<style>
+    body {
+        background-color: #1a1a1d; /* Darker background color */
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .about-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+        margin-top: 20px;
+        width: 85%;
+        gap: 50px;
+    }
+
+    .about-text {
+        max-width: 600px;
+    }
+
+    .about-text h1 {
+        color: #f0a500;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .about-text p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .about-text ul {
+        padding-left: 20px;
+    }
+
+    .about-text ul li {
+        margin-bottom: 10px;
+    }
+
+    .about-image img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+</style>
+
+<div class="about-container">
+    
+    <div class="about-text">
+        <h1>About Student Performance Analysis</h1>
+        <p>
+            The Student Performance Analysis system is a web application designed to help educators, parents, and students gain deeper insights 
+            into students' academic performances. By analyzing various factors such as gender, parental education level, test preparation, sports participation, 
+            and subject scores, the system provides a comprehensive performance analysis that helps in identifying areas of strength and improvement.
+        </p>
+        <p>
+            <strong>Key Features:</strong>
+            <ul>
+                <li>Upload datasets and train models for performance analysis.</li>
+                <li>Provide real-time performance analysis based on user inputs.</li>
+                <li>View performance breakdowns via pie charts and bar graphs.</li>
+                <li>Interactive user interface with sleek design and smooth animations.</li>
+            </ul>
+        </p>
+        <p>
+            This tool aims to provide meaningful insights that can aid students in improving their academic performance 
+            and assist educators in tailoring their teaching strategies to suit individual needs.
+        </p>
+    </div>
+    <div class="about-image">
+        <img src="https://www.boldbi.com/wp-content/uploads/2024/01/student-performance-featured.webp" 
+             alt="Student Performance Analysis">
+    </div>
+    
+</div>
+{% endblock %}

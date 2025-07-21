@@ -1,0 +1,54 @@
+
+
+{% block content %}
+<style>
+    .welcome-section {
+        background-color: #1a1a1d; /* Dark Background */
+        color: white;
+        padding: 60px 10%;
+        text-align: center;
+    }
+
+    .welcome-section h1 {
+        color: #f0a500; /* Golden Color */
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .welcome-section p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .welcome-btn {
+        background-color: #f0a500;
+        color: #1a1a1d;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        text-decoration: none;
+    }
+
+    .welcome-btn:hover {
+        background-color: #d18e00;
+    }
+</style>
+
+<!-- Welcome Section -->
+<div class="welcome-section">
+    <h1>Welcome to Student Performance Analysis</h1>
+    <p>
+        Discover an intelligent way to analyze and predict student performance. 
+        Our system leverages advanced machine learning algorithms to provide valuable insights 
+        that help students, parents, and educators enhance learning experiences.
+    </p>
+    <a href="/predict-page" class="welcome-btn">Analyse student Performance</a>
+</div>
+{% endblock %}

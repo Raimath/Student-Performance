@@ -1,0 +1,83 @@
+
+
+{% block content %}
+<style>
+    body {
+        background-color: #1a1a1d; /* Darker background color */
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin-top: 20px;
+        width: 60%;
+        margin: auto;
+        background-color: #2a2a2d;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .contact-container h1 {
+        color: #f0a500;
+        margin-bottom: 30px;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .contact-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #38383b;
+        border: 1px solid #f0a500;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .contact-form button {
+        background-color: #f0a500;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .contact-form button:hover {
+        background-color: #ffbb33;
+    }
+</style>
+
+<div class="contact-container">
+    <h1>Contact Us</h1>
+    <form class="contact-form" method="POST" action="/contact">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+{% endblock %}

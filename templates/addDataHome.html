@@ -1,0 +1,133 @@
+
+
+{% block content %}
+<style>
+    body {
+        background-color: #1a1a1d; /* Darker background color */
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .add-data-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin-top: 20px;
+        width: 60%;
+        margin: 20px;
+        background-color: #2a2a2d;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .add-data-container h1 {
+        color: #f0a500;
+        margin-bottom: 30px;
+    }
+
+    .add-data-form {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    .add-data-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .add-data-form input,
+    .add-data-form select,
+    .add-data-form option {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #38383b;
+        border: 1px solid #f0a500;
+        border-radius: 5px;
+        color: white;
+        transition: ease-in-out 0.5s;
+    }
+    .add-data-form select:hover{
+        background-color: #f0a500ed;
+        color: black;
+    }
+
+    .add-data-form input[type="submit"] {
+        background-color: #f0a500;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .add-data-form input[type="submit"]:hover {
+        background-color: #ffbb33;
+    }
+
+    .success-message {
+        color: #00ff00;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="add-data-container">
+    <h1>Add Student Data</h1>
+
+    {% if message %}
+        <p class="success-message"><strong>{{ message }}</strong></p>
+    {% endif %}
+
+    <form method="POST" class="add-data-form" action="/add-data">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Gender:</label>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <label>Parental Level of Education:</label>
+        <select name="education">
+            <option value="some high school">Some High School</option>
+            <option value="high school">High School</option>
+            <option value="some college">Some College</option>
+            <option value="associate's degree">Associate's Degree</option>
+            <option value="bachelor's degree">Bachelor's Degree</option>
+            <option value="master's degree">Master's Degree</option>
+        </select>
+
+        <label>Test Preparation Course:</label>
+        <select name="test_prep">
+            <option value="none">None</option>
+            <option value="completed">Completed</option>
+        </select>
+
+        <label>Participating in Sports:</label>
+        <select name="sports">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <label>Subject 1 Score:</label>
+        <input type="number" name="subject1" required min="0" max="100">
+
+        <label>Subject 2 Score:</label>
+        <input type="number" name="subject2" required min="0" max="100">
+
+        <label>Subject 3 Score:</label>
+        <input type="number" name="subject3" required min="0" max="100">
+
+        <label>Subject 4 Score:</label>
+        <input type="number" name="subject4" required min="0" max="100">
+
+        <input type="submit" value="Add Data">
+    </form>
+</div>
+{% endblock %}

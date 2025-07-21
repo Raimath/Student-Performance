@@ -1,0 +1,582 @@
+name,gender,parental level of education,test preparation course,Participating in sports,Subject 1,Subject 2,Subject 3,Subject 4
+Ravi Sharma,male,bachelor's degree,none,yes,72.0,74.0,88.0,72.0
+Ananya Patel,female,some college,completed,no,90.0,88.0,76.0,69.0
+Arjun Gupta,male,master's degree,none,yes,95.0,93.0,85.0,90.0
+Priya Iyer,female,associate's degree,none,no,57.0,44.0,68.0,47.0
+Vedant Rao,male,some college,none,yes,78.0,75.0,91.0,76.0
+Neha Mehta,female,associate's degree,none,no,83.0,78.0,62.0,71.0
+Aarav Menon,male,some college,completed,yes,95.0,92.0,54.0,88.0
+Saanvi Desai,female,some college,none,no,43.0,39.0,66.0,40.0
+Vihaan Nair,male,high school,completed,yes,64.0,67.0,55.0,64.0
+Tara Joshi,female,high school,none,no,60.0,50.0,42.0,38.0
+Kabir Agarwal,male,associate's degree,none,yes,54.0,52.0,80.0,58.0
+Atharv Singh,male,associate's degree,none,no,52.0,43.0,33.0,40.0
+Pooja Kapoor,female,high school,none,yes,81.0,73.0,78.0,65.0
+Rohan Verma,male,some college,completed,no,72.0,70.0,81.0,78.0
+Aditi Bhattacharya,female,master's degree,none,yes,53.0,58.0,74.0,50.0
+Tanvi Roy,female,some high school,none,no,75.0,78.0,48.0,69.0
+Rishabh Bansal,male,high school,none,yes,89.0,86.0,52.0,88.0
+Kavya Gupta,female,some high school,none,no,32.0,28.0,30.0,18.0
+Ishaan Chatterjee,male,master's degree,completed,yes,42.0,46.0,84.0,46.0
+Naina Shetty,female,associate's degree,none,no,58.0,61.0,59.0,54.0
+Harsh Rawat,male,high school,none,yes,69.0,63.0,72.0,66.0
+Meera Kaur,female,some college,completed,no,75.0,70.0,47.0,65.0
+Arnav Mehta,male,some college,none,yes,54.0,53.0,66.0,44.0
+Riya Saxena,female,some high school,none,no,73.0,73.0,61.0,69.0
+Shivansh Yadav,male,bachelor's degree,completed,yes,71.0,80.0,94.0,74.0
+Aditya Jain,male,master's degree,none,no,74.0,72.0,70.0,73.0
+Ayaan Khatri,male,some college,none,yes,54.0,55.0,58.0,69.0
+Shreya Kumar,female,bachelor's degree,none,no,69.0,75.0,80.0,67.0
+Karan Sharma,male,high school,none,yes,70.0,65.0,93.0,70.0
+Siddhi Joshi,female,master's degree,none,no,70.0,75.0,49.0,62.0
+Nidhi Nair,female,some college,none,yes,74.0,74.0,76.0,69.0
+Anvi Malhotra,female,some college,none,no,65.0,61.0,88.0,63.0
+Akshat Garg,male,master's degree,none,yes,72.0,65.0,39.0,56.0
+Kunal Malik,male,some college,none,no,42.0,38.0,44.0,40.0
+Devansh Kapoor,male,some college,none,yes,87.0,82.0,97.0,97.0
+Paras Joshi,male,associate's degree,completed,no,81.0,79.0,75.0,81.0
+Natasha Singh,female,associate's degree,none,yes,81.0,83.0,90.0,74.0
+Ritika Mehta,female,some high school,none,no,64.0,59.0,67.0,50.0
+Rahul Deshmukh,male,associate's degree,completed,yes,90.0,88.0,66.0,75.0
+Pritam Khanna,male,associate's degree,none,no,56.0,57.0,42.0,57.0
+Ripunjay Roy,male,associate's degree,none,yes,61.0,54.0,95.0,55.0
+Aria Kapoor,female,associate's degree,none,no,73.0,68.0,82.0,58.0
+Tanvi Agarwal,female,associate's degree,none,yes,58.0,65.0,53.0,53.0
+Mohit Reddy,male,some college,completed,no,65.0,66.0,71.0,59.0
+Saisha Ahuja,female,associate's degree,none,yes,56.0,54.0,44.0,50.0
+Kartik Desai,male,associate's degree,none,yes,54.0,57.0,37.0,65.0
+Sanya Choudhury,female,associate's degree,completed,no,65.0,62.0,70.0,55.0
+Sunil Kumar,male,high school,none,yes,71.0,76.0,59.0,66.0
+Reema Pandey,female,associate's degree,completed,no,74.0,76.0,34.0,57.0
+Shivraj Shetty,male,high school,completed,yes,84.0,82.0,85.0,82.0
+Aaryan Singh,male,some college,none,yes,55.0,48.0,70.0,53.0
+Anushka Yadav,female,some high school,completed,no,17.0,10.0,48.0,0.0
+Karan Sethi,male,bachelor's degree,completed,yes,74.0,72.0,62.0,79.0
+Siddharth Tiwari,male,some high school,none,no,39.0,34.0,70.0,39.0
+Vidya Suri,female,associate's degree,none,yes,61.0,55.0,87.0,62.0
+Maya Agarwal,female,associate's degree,none,no,80.0,71.0,72.0,69.0
+Divya Patel,female,some high school,none,yes,58.0,59.0,64.0,59.0
+Rajesh Kumar,male,some high school,none,no,64.0,61.0,45.0,67.0
+Chirag Bansal,male,some high school,none,yes,37.0,37.0,32.0,45.0
+Tanishq Gupta,male,some college,none,no,72.0,74.0,84.0,60.0
+Nishant Sharma,male,associate's degree,none,yes,58.0,56.0,90.0,61.0
+Neelam Chopra,female,associate's degree,none,no,64.0,57.0,76.0,39.0
+Ayush Jain,male,some college,completed,yes,63.0,73.0,66.0,58.0
+Sristi Arya,female,associate's degree,none,no,51.0,48.0,57.0,41.0
+Deepak Singh,male,some high school,none,yes,57.0,56.0,38.0,61.0
+Siddharth Iyer,male,some high school,none,no,49.0,41.0,88.0,49.0
+Vikram Ahuja,male,associate's degree,none,yes,41.0,38.0,72.0,44.0
+Arjun Khanna,male,some high school,none,no,26.0,22.0,30.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,82.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+Sakshi Choudhary,female,some college,completed,no,72.0,70.0,77.0,63.0
+Diya Nair,female,some college,none,yes,67.0,62.0,62.0,58.0
+Ananya Singh,female,bachelor's degree,none,no,67.0,62.0,88.0,65.0
+Arjun Malik,male,some college,none,yes,67.0,67.0,43.0,79.0
+Himanshu Deshmukh,male,bachelor's degree,completed,no,74.0,74.0,99.0,68.0
+Vidya Kaur,female,associate's degree,none,yes,91.0,89.0,95.0,85.0
+Ravi Thakur,male,high school,completed,yes,44.0,47.0,64.0,60.0
+Shivansh Singh,female,some high school,completed,no,84.0,87.0,46.0,71.0
+Avani Gupta,female,high school,none,yes,41.0,43.0,53.0,33.0
+Naisha Kumar,female,associate's degree,completed,no,85.0,86.0,55.0,82.0
+Arjun Yadav,male,associate's degree,none,no,55.0,49.0,48.0,52.0
+Karan Sharma,male,some college,completed,yes,59.0,58.0,56.0,58.0
+Radhika Choudhary,female,some high school,none,no,17.0,10.0,30.0,0.0
+Rohit Reddy,male,bachelor's degree,completed,yes,74.0,72.0,35.0,79.0
+Yash Tiwari,male,some high school,none,no,39.0,34.0,55.0,39.0
+Nisha Verma,female,associate's degree,none,yes,61.0,55.0,72.0,62.0
+Riya Sharma,female,associate's degree,none,no,80.0,71.0,88.0,69.0
+Farhan Khan,male,some high school,none,yes,58.0,59.0,45.0,59.0
+Nikhil Verma,male,some high school,none,no,64.0,61.0,77.0,67.0
+Veer Desai,male,some high school,none,yes,37.0,37.0,44.0,45.0
+Nikita Patel,female,some college,none,no,72.0,74.0,60.0,60.0
+Prateek Gupta,male,associate's degree,none,yes,58.0,56.0,75.0,61.0
+Simran Yadav,female,associate's degree,none,no,64.0,57.0,93.0,39.0
+Aakarsh Agarwal,male,some college,completed,yes,63.0,73.0,50.0,58.0
+Anvika Rao,female,associate's degree,none,no,51.0,48.0,78.0,41.0
+Shubham Kumar,male,some high school,none,yes,57.0,56.0,88.0,61.0
+Karan Joshi,male,some high school,none,no,49.0,41.0,73.0,49.0
+Aryan Yadav,male,associate's degree,none,yes,41.0,38.0,94.0,44.0
+Pranav Singh,male,some high school,none,no,26.0,22.0,80.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,68.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+Sakshi Choudhary,female,some college,completed,no,72.0,70.0,77.0,63.0
+Diya Nair,female,some college,none,yes,67.0,62.0,62.0,58.0
+Ananya Singh,female,bachelor's degree,none,no,67.0,62.0,88.0,65.0
+Arjun Malik,male,some college,none,yes,67.0,67.0,43.0,79.0
+Himanshu Deshmukh,male,bachelor's degree,completed,no,74.0,74.0,99.0,68.0
+Vidya Kaur,female,associate's degree,none,yes,91.0,89.0,95.0,85.0
+Ravi Thakur,male,high school,completed,yes,44.0,47.0,64.0,60.0
+Shivansh Singh,female,some high school,completed,no,84.0,87.0,46.0,71.0
+Avani Gupta,female,high school,none,yes,41.0,43.0,53.0,33.0
+Naisha Kumar,female,associate's degree,completed,no,85.0,86.0,55.0,82.0
+Arjun Yadav,male,associate's degree,none,no,55.0,49.0,48.0,52.0
+Karan Sharma,male,some college,completed,yes,59.0,58.0,56.0,58.0
+Radhika Choudhary,female,some high school,none,no,17.0,10.0,30.0,0.0
+Rohit Reddy,male,bachelor's degree,completed,yes,74.0,72.0,35.0,79.0
+Yash Tiwari,male,some high school,none,no,39.0,34.0,55.0,39.0
+Nisha Verma,female,associate's degree,none,yes,61.0,55.0,72.0,62.0
+Riya Sharma,female,associate's degree,none,no,80.0,71.0,88.0,69.0
+Farhan Khan,male,some high school,none,yes,58.0,59.0,45.0,59.0
+Nikhil Verma,male,some high school,none,no,64.0,61.0,77.0,67.0
+Veer Desai,male,some high school,none,yes,37.0,37.0,44.0,45.0
+Nikita Patel,female,some college,none,no,72.0,74.0,60.0,60.0
+Prateek Gupta,male,associate's degree,none,yes,58.0,56.0,75.0,61.0
+Simran Yadav,female,associate's degree,none,no,64.0,57.0,93.0,39.0
+Aakarsh Agarwal,male,some college,completed,yes,63.0,73.0,50.0,58.0
+Anvika Rao,female,associate's degree,none,no,51.0,48.0,78.0,41.0
+Shubham Kumar,male,some high school,none,yes,57.0,56.0,88.0,61.0
+Karan Joshi,male,some high school,none,no,49.0,41.0,73.0,49.0
+Aryan Yadav,male,associate's degree,none,yes,41.0,38.0,94.0,44.0
+Pranav Singh,male,some high school,none,no,26.0,22.0,80.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,68.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+Sakshi Choudhary,female,some college,completed,no,72.0,70.0,77.0,63.0
+Diya Nair,female,some college,none,yes,67.0,62.0,62.0,58.0
+Ananya Singh,female,bachelor's degree,none,no,67.0,62.0,88.0,65.0
+Arjun Malik,male,some college,none,yes,67.0,67.0,43.0,79.0
+Himanshu Deshmukh,male,bachelor's degree,completed,no,74.0,74.0,99.0,68.0
+Vidya Kaur,female,associate's degree,none,yes,91.0,89.0,95.0,85.0
+Ravi Thakur,male,high school,completed,yes,44.0,47.0,64.0,60.0
+Shivansh Singh,female,some high school,completed,no,84.0,87.0,46.0,71.0
+Avani Gupta,female,high school,none,yes,41.0,43.0,53.0,33.0
+Naisha Kumar,female,associate's degree,completed,no,85.0,86.0,55.0,82.0
+Arjun Yadav,male,associate's degree,none,no,55.0,49.0,48.0,52.0
+Karan Sharma,male,some college,completed,yes,59.0,58.0,56.0,58.0
+Radhika Choudhary,female,some high school,none,no,17.0,10.0,30.0,0.0
+Rohit Reddy,male,bachelor's degree,completed,yes,74.0,72.0,35.0,79.0
+Yash Tiwari,male,some high school,none,no,39.0,34.0,55.0,39.0
+Nisha Verma,female,associate's degree,none,yes,61.0,55.0,72.0,62.0
+Riya Sharma,female,associate's degree,none,no,80.0,71.0,88.0,69.0
+Farhan Khan,male,some high school,none,yes,58.0,59.0,45.0,59.0
+Nikhil Verma,male,some high school,none,no,64.0,61.0,77.0,67.0
+Veer Desai,male,some high school,none,yes,37.0,37.0,44.0,45.0
+Nikita Patel,female,some college,none,no,72.0,74.0,60.0,60.0
+Prateek Gupta,male,associate's degree,none,yes,58.0,56.0,75.0,61.0
+Simran Yadav,female,associate's degree,none,no,64.0,57.0,93.0,39.0
+Aakarsh Agarwal,male,some college,completed,yes,63.0,73.0,50.0,58.0
+Anvika Rao,female,associate's degree,none,no,51.0,48.0,78.0,41.0
+Shubham Kumar,male,some high school,none,yes,57.0,56.0,88.0,61.0
+Karan Joshi,male,some high school,none,no,49.0,41.0,73.0,49.0
+Aryan Yadav,male,associate's degree,none,yes,41.0,38.0,94.0,44.0
+Pranav Singh,male,some high school,none,no,26.0,22.0,80.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,68.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+Sakshi Choudhary,female,some college,completed,no,72.0,70.0,77.0,63.0
+Diya Nair,female,some college,none,yes,67.0,62.0,62.0,58.0
+Ananya Singh,female,bachelor's degree,none,no,67.0,62.0,88.0,65.0
+Arjun Malik,male,some college,none,yes,67.0,67.0,43.0,79.0
+Himanshu Deshmukh,male,bachelor's degree,completed,no,74.0,74.0,99.0,68.0
+Vidya Kaur,female,associate's degree,none,yes,91.0,89.0,95.0,85.0
+Ravi Thakur,male,high school,completed,yes,44.0,47.0,64.0,60.0
+Shivansh Singh,female,some high school,completed,no,84.0,87.0,46.0,71.0
+Avani Gupta,female,high school,none,yes,41.0,43.0,53.0,33.0
+Naisha Kumar,female,associate's degree,completed,no,85.0,86.0,55.0,82.0
+Arjun Yadav,male,associate's degree,none,no,55.0,49.0,48.0,52.0
+Karan Sharma,male,some college,completed,yes,59.0,58.0,56.0,58.0
+Radhika Choudhary,female,some high school,none,no,17.0,10.0,30.0,0.0
+Rohit Reddy,male,bachelor's degree,completed,yes,74.0,72.0,35.0,79.0
+Yash Tiwari,male,some high school,none,no,39.0,34.0,55.0,39.0
+Nisha Verma,female,associate's degree,none,yes,61.0,55.0,72.0,62.0
+Riya Sharma,female,associate's degree,none,no,80.0,71.0,88.0,69.0
+Farhan Khan,male,some high school,none,yes,58.0,59.0,45.0,59.0
+Nikhil Verma,male,some high school,none,no,64.0,61.0,77.0,67.0
+Veer Desai,male,some high school,none,yes,37.0,37.0,44.0,45.0
+Nikita Patel,female,some college,none,no,72.0,74.0,60.0,60.0
+Prateek Gupta,male,associate's degree,none,yes,58.0,56.0,75.0,61.0
+Simran Yadav,female,associate's degree,none,no,64.0,57.0,93.0,39.0
+Aakarsh Agarwal,male,some college,completed,yes,63.0,73.0,50.0,58.0
+Anvika Rao,female,associate's degree,none,no,51.0,48.0,78.0,41.0
+Shubham Kumar,male,some high school,none,yes,57.0,56.0,88.0,61.0
+Karan Joshi,male,some high school,none,no,49.0,41.0,73.0,49.0
+Aryan Yadav,male,associate's degree,none,yes,41.0,38.0,94.0,44.0
+Pranav Singh,male,some high school,none,no,26.0,22.0,80.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,68.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+Sakshi Choudhary,female,some college,completed,no,72.0,70.0,77.0,63.0
+Diya Nair,female,some college,none,yes,67.0,62.0,62.0,58.0
+Ananya Singh,female,bachelor's degree,none,no,67.0,62.0,88.0,65.0
+Arjun Malik,male,some college,none,yes,67.0,67.0,43.0,79.0
+Himanshu Deshmukh,male,bachelor's degree,completed,no,74.0,74.0,99.0,68.0
+Vidya Kaur,female,associate's degree,none,yes,91.0,89.0,95.0,85.0
+Ravi Thakur,male,high school,completed,yes,44.0,47.0,64.0,60.0
+Shivansh Singh,female,some high school,completed,no,84.0,87.0,46.0,71.0
+Avani Gupta,female,high school,none,yes,41.0,43.0,53.0,33.0
+Naisha Kumar,female,associate's degree,completed,no,85.0,86.0,55.0,82.0
+Arjun Yadav,male,associate's degree,none,no,55.0,49.0,48.0,52.0
+Karan Sharma,male,some college,completed,yes,59.0,58.0,56.0,58.0
+Radhika Choudhary,female,some high school,none,no,17.0,10.0,30.0,0.0
+Rohit Reddy,male,bachelor's degree,completed,yes,74.0,72.0,35.0,79.0
+Yash Tiwari,male,some high school,none,no,39.0,34.0,55.0,39.0
+Nisha Verma,female,associate's degree,none,yes,61.0,55.0,72.0,62.0
+Riya Sharma,female,associate's degree,none,no,80.0,71.0,88.0,69.0
+Farhan Khan,male,some high school,none,yes,58.0,59.0,45.0,59.0
+Nikhil Verma,male,some high school,none,no,64.0,61.0,77.0,67.0
+Veer Desai,male,some high school,none,yes,37.0,37.0,44.0,45.0
+Nikita Patel,female,some college,none,no,72.0,74.0,60.0,60.0
+Prateek Gupta,male,associate's degree,none,yes,58.0,56.0,75.0,61.0
+Simran Yadav,female,associate's degree,none,no,64.0,57.0,93.0,39.0
+Aakarsh Agarwal,male,some college,completed,yes,63.0,73.0,50.0,58.0
+Anvika Rao,female,associate's degree,none,no,51.0,48.0,78.0,41.0
+Shubham Kumar,male,some high school,none,yes,57.0,56.0,88.0,61.0
+Karan Joshi,male,some high school,none,no,49.0,41.0,73.0,49.0
+Aryan Yadav,male,associate's degree,none,yes,41.0,38.0,94.0,44.0
+Pranav Singh,male,some high school,none,no,26.0,22.0,80.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,68.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+Sakshi Choudhary,female,some college,completed,no,72.0,70.0,77.0,63.0
+Diya Nair,female,some college,none,yes,67.0,62.0,62.0,58.0
+Ananya Singh,female,bachelor's degree,none,no,67.0,62.0,88.0,65.0
+Arjun Malik,male,some college,none,yes,67.0,67.0,43.0,79.0
+Himanshu Deshmukh,male,bachelor's degree,completed,no,74.0,74.0,99.0,68.0
+Vidya Kaur,female,associate's degree,none,yes,91.0,89.0,95.0,85.0
+Ravi Thakur,male,high school,completed,yes,44.0,47.0,64.0,60.0
+Shivansh Singh,female,some high school,completed,no,84.0,87.0,46.0,71.0
+Avani Gupta,female,high school,none,yes,41.0,43.0,53.0,33.0
+Naisha Kumar,female,associate's degree,completed,no,85.0,86.0,55.0,82.0
+Arjun Yadav,male,associate's degree,none,no,55.0,49.0,48.0,52.0
+Karan Sharma,male,some college,completed,yes,59.0,58.0,56.0,58.0
+Radhika Choudhary,female,some high school,none,no,17.0,10.0,30.0,0.0
+Rohit Reddy,male,bachelor's degree,completed,yes,74.0,72.0,35.0,79.0
+Yash Tiwari,male,some high school,none,no,39.0,34.0,55.0,39.0
+Nisha Verma,female,associate's degree,none,yes,61.0,55.0,72.0,62.0
+Riya Sharma,female,associate's degree,none,no,80.0,71.0,88.0,69.0
+Farhan Khan,male,some high school,none,yes,58.0,59.0,45.0,59.0
+Nikhil Verma,male,some high school,none,no,64.0,61.0,77.0,67.0
+Veer Desai,male,some high school,none,yes,37.0,37.0,44.0,45.0
+Nikita Patel,female,some college,none,no,72.0,74.0,60.0,60.0
+Prateek Gupta,male,associate's degree,none,yes,58.0,56.0,75.0,61.0
+Simran Yadav,female,associate's degree,none,no,64.0,57.0,93.0,39.0
+Aakarsh Agarwal,male,some college,completed,yes,63.0,73.0,50.0,58.0
+Anvika Rao,female,associate's degree,none,no,51.0,48.0,78.0,41.0
+Shubham Kumar,male,some high school,none,yes,57.0,56.0,88.0,61.0
+Karan Joshi,male,some high school,none,no,49.0,41.0,73.0,49.0
+Aryan Yadav,male,associate's degree,none,yes,41.0,38.0,94.0,44.0
+Pranav Singh,male,some high school,none,no,26.0,22.0,80.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,68.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+Sakshi Choudhary,female,some college,completed,no,72.0,70.0,77.0,63.0
+Diya Nair,female,some college,none,yes,67.0,62.0,62.0,58.0
+Ananya Singh,female,bachelor's degree,none,no,67.0,62.0,88.0,65.0
+Arjun Malik,male,some college,none,yes,67.0,67.0,43.0,79.0
+Himanshu Deshmukh,male,bachelor's degree,completed,no,74.0,74.0,99.0,68.0
+Vidya Kaur,female,associate's degree,none,yes,91.0,89.0,95.0,85.0
+Ravi Thakur,male,high school,completed,yes,44.0,47.0,64.0,60.0
+Shivansh Singh,female,some high school,completed,no,84.0,87.0,46.0,71.0
+Avani Gupta,female,high school,none,yes,41.0,43.0,53.0,33.0
+Naisha Kumar,female,associate's degree,completed,no,85.0,86.0,55.0,82.0
+Arjun Yadav,male,associate's degree,none,no,55.0,49.0,48.0,52.0
+Karan Sharma,male,some college,completed,yes,59.0,58.0,56.0,58.0
+Radhika Choudhary,female,some high school,none,no,17.0,10.0,30.0,0.0
+Rohit Reddy,male,bachelor's degree,completed,yes,74.0,72.0,35.0,79.0
+Yash Tiwari,male,some high school,none,no,39.0,34.0,55.0,39.0
+Nisha Verma,female,associate's degree,none,yes,61.0,55.0,72.0,62.0
+Riya Sharma,female,associate's degree,none,no,80.0,71.0,88.0,69.0
+Farhan Khan,male,some high school,none,yes,58.0,59.0,45.0,59.0
+Nikhil Verma,male,some high school,none,no,64.0,61.0,77.0,67.0
+Veer Desai,male,some high school,none,yes,37.0,37.0,44.0,45.0
+Nikita Patel,female,some college,none,no,72.0,74.0,60.0,60.0
+Prateek Gupta,male,associate's degree,none,yes,58.0,56.0,75.0,61.0
+Simran Yadav,female,associate's degree,none,no,64.0,57.0,93.0,39.0
+Aakarsh Agarwal,male,some college,completed,yes,63.0,73.0,50.0,58.0
+Anvika Rao,female,associate's degree,none,no,51.0,48.0,78.0,41.0
+Shubham Kumar,male,some high school,none,yes,57.0,56.0,88.0,61.0
+Karan Joshi,male,some high school,none,no,49.0,41.0,73.0,49.0
+Aryan Yadav,male,associate's degree,none,yes,41.0,38.0,94.0,44.0
+Pranav Singh,male,some high school,none,no,26.0,22.0,80.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,68.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+Sakshi Choudhary,female,some college,completed,no,72.0,70.0,77.0,63.0
+Diya Nair,female,some college,none,yes,67.0,62.0,62.0,58.0
+Ananya Singh,female,bachelor's degree,none,no,67.0,62.0,88.0,65.0
+Arjun Malik,male,some college,none,yes,67.0,67.0,43.0,79.0
+Himanshu Deshmukh,male,bachelor's degree,completed,no,74.0,74.0,99.0,68.0
+Vidya Kaur,female,associate's degree,none,yes,91.0,89.0,95.0,85.0
+Ravi Thakur,male,high school,completed,yes,44.0,47.0,64.0,60.0
+Shivansh Singh,female,some high school,completed,no,84.0,87.0,46.0,71.0
+Avani Gupta,female,high school,none,yes,41.0,43.0,53.0,33.0
+Naisha Kumar,female,associate's degree,completed,no,85.0,86.0,55.0,82.0
+Arjun Yadav,male,associate's degree,none,no,55.0,49.0,48.0,52.0
+Karan Sharma,male,some college,completed,yes,59.0,58.0,56.0,58.0
+Radhika Choudhary,female,some high school,none,no,17.0,10.0,30.0,0.0
+Rohit Reddy,male,bachelor's degree,completed,yes,74.0,72.0,35.0,79.0
+Yash Tiwari,male,some high school,none,no,39.0,34.0,55.0,39.0
+Nisha Verma,female,associate's degree,none,yes,61.0,55.0,72.0,62.0
+Riya Sharma,female,associate's degree,none,no,80.0,71.0,88.0,69.0
+Farhan Khan,male,some high school,none,yes,58.0,59.0,45.0,59.0
+Nikhil Verma,male,some high school,none,no,64.0,61.0,77.0,67.0
+Veer Desai,male,some high school,none,yes,37.0,37.0,44.0,45.0
+Nikita Patel,female,some college,none,no,72.0,74.0,60.0,60.0
+Prateek Gupta,male,associate's degree,none,yes,58.0,56.0,75.0,61.0
+Simran Yadav,female,associate's degree,none,no,64.0,57.0,93.0,39.0
+Aakarsh Agarwal,male,some college,completed,yes,63.0,73.0,50.0,58.0
+Anvika Rao,female,associate's degree,none,no,51.0,48.0,78.0,41.0
+Shubham Kumar,male,some high school,none,yes,57.0,56.0,88.0,61.0
+Karan Joshi,male,some high school,none,no,49.0,41.0,73.0,49.0
+Aryan Yadav,male,associate's degree,none,yes,41.0,38.0,94.0,44.0
+Pranav Singh,male,some high school,none,no,26.0,22.0,80.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,68.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+Sakshi Choudhary,female,some college,completed,no,72.0,70.0,77.0,63.0
+Diya Nair,female,some college,none,yes,67.0,62.0,62.0,58.0
+Ananya Singh,female,bachelor's degree,none,no,67.0,62.0,88.0,65.0
+Arjun Malik,male,some college,none,yes,67.0,67.0,43.0,79.0
+Himanshu Deshmukh,male,bachelor's degree,completed,no,74.0,74.0,99.0,68.0
+Vidya Kaur,female,associate's degree,none,yes,91.0,89.0,95.0,85.0
+Ravi Thakur,male,high school,completed,yes,44.0,47.0,64.0,60.0
+Shivansh Singh,female,some high school,completed,no,84.0,87.0,46.0,71.0
+Avani Gupta,female,high school,none,yes,41.0,43.0,53.0,33.0
+Naisha Kumar,female,associate's degree,completed,no,85.0,86.0,55.0,82.0
+Arjun Yadav,male,associate's degree,none,no,55.0,49.0,48.0,52.0
+Karan Sharma,male,some college,completed,yes,59.0,58.0,56.0,58.0
+Radhika Choudhary,female,some high school,none,no,17.0,10.0,30.0,0.0
+Rohit Reddy,male,bachelor's degree,completed,yes,74.0,72.0,35.0,79.0
+Yash Tiwari,male,some high school,none,no,39.0,34.0,55.0,39.0
+Nisha Verma,female,associate's degree,none,yes,61.0,55.0,72.0,62.0
+Riya Sharma,female,associate's degree,none,no,80.0,71.0,88.0,69.0
+Farhan Khan,male,some high school,none,yes,58.0,59.0,45.0,59.0
+Nikhil Verma,male,some high school,none,no,64.0,61.0,77.0,67.0
+Veer Desai,male,some high school,none,yes,37.0,37.0,44.0,45.0
+Nikita Patel,female,some college,none,no,72.0,74.0,60.0,60.0
+Prateek Gupta,male,associate's degree,none,yes,58.0,56.0,75.0,61.0
+Simran Yadav,female,associate's degree,none,no,64.0,57.0,93.0,39.0
+Aakarsh Agarwal,male,some college,completed,yes,63.0,73.0,50.0,58.0
+Anvika Rao,female,associate's degree,none,no,51.0,48.0,78.0,41.0
+Shubham Kumar,male,some high school,none,yes,57.0,56.0,88.0,61.0
+Karan Joshi,male,some high school,none,no,49.0,41.0,73.0,49.0
+Aryan Yadav,male,associate's degree,none,yes,41.0,38.0,94.0,44.0
+Pranav Singh,male,some high school,none,no,26.0,22.0,80.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,68.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+Sakshi Choudhary,female,some college,completed,no,72.0,70.0,77.0,63.0
+Diya Nair,female,some college,none,yes,67.0,62.0,62.0,58.0
+Ananya Singh,female,bachelor's degree,none,no,67.0,62.0,88.0,65.0
+Arjun Malik,male,some college,none,yes,67.0,67.0,43.0,79.0
+Himanshu Deshmukh,male,bachelor's degree,completed,no,74.0,74.0,99.0,68.0
+Vidya Kaur,female,associate's degree,none,yes,91.0,89.0,95.0,85.0
+Ravi Thakur,male,high school,completed,yes,44.0,47.0,64.0,60.0
+Shivansh Singh,female,some high school,completed,no,84.0,87.0,46.0,71.0
+Avani Gupta,female,high school,none,yes,41.0,43.0,53.0,33.0
+Naisha Kumar,female,associate's degree,completed,no,85.0,86.0,55.0,82.0
+Arjun Yadav,male,associate's degree,none,no,55.0,49.0,48.0,52.0
+Karan Sharma,male,some college,completed,yes,59.0,58.0,56.0,58.0
+Radhika Choudhary,female,some high school,none,no,17.0,10.0,30.0,0.0
+Rohit Reddy,male,bachelor's degree,completed,yes,74.0,72.0,35.0,79.0
+Yash Tiwari,male,some high school,none,no,39.0,34.0,55.0,39.0
+Nisha Verma,female,associate's degree,none,yes,61.0,55.0,72.0,62.0
+Riya Sharma,female,associate's degree,none,no,80.0,71.0,88.0,69.0
+Farhan Khan,male,some high school,none,yes,58.0,59.0,45.0,59.0
+Nikhil Verma,male,some high school,none,no,64.0,61.0,77.0,67.0
+Veer Desai,male,some high school,none,yes,37.0,37.0,44.0,45.0
+Nikita Patel,female,some college,none,no,72.0,74.0,60.0,60.0
+Prateek Gupta,male,associate's degree,none,yes,58.0,56.0,75.0,61.0
+Simran Yadav,female,associate's degree,none,no,64.0,57.0,93.0,39.0
+Aakarsh Agarwal,male,some college,completed,yes,63.0,73.0,50.0,58.0
+Anvika Rao,female,associate's degree,none,no,51.0,48.0,78.0,41.0
+Shubham Kumar,male,some high school,none,yes,57.0,56.0,88.0,61.0
+Karan Joshi,male,some high school,none,no,49.0,41.0,73.0,49.0
+Aryan Yadav,male,associate's degree,none,yes,41.0,38.0,94.0,44.0
+Pranav Singh,male,some high school,none,no,26.0,22.0,80.0,30.0
+Kabir Sharma,male,bachelor's degree,completed,yes,78.0,81.0,68.0,80.0
+Priyanka Sharma,female,some high school,completed,no,74.0,72.0,54.0,61.0
+Riya Menon,female,master's degree,none,yes,68.0,68.0,81.0,62.0
+Avni Joshi,female,associate's degree,none,no,49.0,50.0,85.0,47.0
+Lucky Rao,male,high school,none,yes,45.0,45.0,61.0,49.0
+Kunal Desai,male,some college,completed,no,47.0,54.0,40.0,50.0
+Dev Nair,male,associate's degree,none,yes,64.0,63.0,53.0,72.0
+Vivek Sharma,male,high school,none,no,39.0,34.0,37.0,42.0
+Ishita Rao,female,some college,none,yes,80.0,82.0,69.0,73.0
+Sidhant Agarwal,male,some college,none,no,83.0,88.0,60.0,76.0
+Veer Bhardwaj,male,associate's degree,none,yes,71.0,74.0,68.0,71.0
+Shivangi Dutta,female,some college,none,no,70.0,67.0,62.0,58.0
+Bhavya Menon,female,some high school,none,yes,86.0,82.0,49.0,73.0
+Manav Verma,male,bachelor's degree,none,no,72.0,74.0,54.0,65.0
+Aditya Rao,male,high school,none,yes,34.0,36.0,48.0,27.0
+Rohit Gupta,male,high school,none,yes,79.0,71.0,89.0,71.0
+Aarav Tiwari,male,associate's degree,completed,no,45.0,50.0,35.0,43.0
+Sneha Sharma,female,some college,none,yes,86.0,92.0,60.0,79.0
+Siddhant Yadav,male,associate's degree,completed,yes,81.0,82.0,76.0,78.0
+Mohit Malhotra,male,some high school,completed,yes,66.0,62.0,55.0,65.0
+raimatb420,male,high school,completed,no,20.0,20.0,20.0,20.0
+Tejas,male,high school,completed,no,56.0,85.0,47.0,69.0
+Raimath Ali,male,some high school,none,yes,20.0,20.0,20.0,20.0

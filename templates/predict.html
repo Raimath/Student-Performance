@@ -1,0 +1,213 @@
+{% extends "base.html" %}
+
+{% block title %}Predict Student Performance{% endblock %}
+
+{% block content %}
+<style>
+    .result {
+        padding: 10px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+
+    .green {
+        color: white;
+        background-color: green;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .yellow {
+        color: black;
+        background-color: yellow;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .red {
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #status {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    #average_score{
+        display: none;
+    }
+</style>
+
+<div class="prediction-container">
+    <h1>Analyse Student Performance</h1>
+
+    <form id="predictionForm" method="POST" action="/predict">
+        <label>Name:</label>
+        <input type="text" name="name" value="{{ request.args.get('name', '') }}" required><br><br>
+
+        <label>Gender:</label>
+        <select name="gender">
+            <option value="male" {% if request.args.get('gender')=='male' %}selected{% endif %}>Male</option>
+            <option value="female" {% if request.args.get('gender')=='female' %}selected{% endif %}>Female</option>
+        </select><br><br>
+
+        <label>Parental Level of Education:</label>
+        <select name="education">
+            <option value="master's degree" {% if request.args.get('education')=="master's degree" %}selected{% endif %}>Master's Degree</option>
+            <option value="bachelor's degree" {% if request.args.get('education')=="bachelor's degree" %}selected{% endif %}>Bachelor's Degree</option>
+            <option value="high school" {% if request.args.get('education')=='high school' %}selected{% endif %}>High School</option>
+            <option value="associate's degree" {% if request.args.get('education')=="associate's degree" %}selected{% endif %}>Associate's Degree</option>
+            <option value="some college" {% if request.args.get('education')=='some college' %}selected{% endif %}>Some College</option>
+        </select><br><br>
+
+        <label>Test Preparation Course:</label>
+        <select name="test_prep">
+            <option value="none" {% if request.args.get('test_prep')=='none' %}selected{% endif %}>None</option>
+            <option value="completed" {% if request.args.get('test_prep')=='completed' %}selected{% endif %}>Completed</option>
+        </select><br><br>
+
+        <label>Participating in Sports:</label>
+        <select name="sports">
+            <option value="yes" {% if request.args.get('sports')=='yes' %}selected{% endif %}>Yes</option>
+            <option value="no" {% if request.args.get('sports')=='no' %}selected{% endif %}>No</option>
+        </select><br><br>
+
+        <label>Subject 1:</label>
+        <input type="number" name="subject1" value="{{ request.args.get('subject1', '') }}" required min="0" max="100"><br><br>
+
+        <label>Subject 2:</label>
+        <input type="number" name="subject2" value="{{ request.args.get('subject2', '') }}" required min="0" max="100"><br><br>
+
+        <label>Subject 3:</label>
+        <input type="number" name="subject3" value="{{ request.args.get('subject3', '') }}" required min="0" max="100"><br><br>
+
+        <label>Subject 4:</label>
+        <input type="number" name="subject4" value="{{ request.args.get('subject4', '') }}" required min="0" max="100"><br><br>
+
+        <button type="submit">Analyse Performance</button>
+    </form>
+
+    <div id="results" style="margin-top: 20px;">
+        <h2 class="result">Analysed Performance: <span id="prediction"></span>%</h2>
+        <h2 id="status"></h2>
+        <h2><span id="average_score"></span></h2>
+
+        <canvas id="featureChart" width="400" height="400"></canvas>
+        <canvas id="barChart" width="400" height="400" style="margin-top: 20px;"></canvas>
+    </div>
+</div>
+
+<!-- Load Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const predictionForm = document.getElementById('predictionForm');
+
+        predictionForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const formData = new FormData(predictionForm);
+
+            fetch('/predict', {
+                method: 'POST',
+                body: formData,
+                headers: { 'X-Requested-With': 'XMLHttpRequest' }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert(data.error);
+                    return;
+                }
+
+                // Update prediction result
+                const predictionElement = document.getElementById('prediction');
+                predictionElement.textContent = data.prediction;
+
+                // Update color based on percentage
+                if (data.prediction > 70) {
+                    predictionElement.className = 'green';
+                } else if (data.prediction >= 35) {
+                    predictionElement.className = 'yellow';
+                } else {
+                    predictionElement.className = 'red';
+                }
+
+                // Update average score
+                document.getElementById('average_score').textContent = data.average_score;
+
+                // Show Pass/Fail status
+                const statusElement = document.getElementById('status');
+                if (data.prediction >= 35) {
+                    statusElement.textContent = "Final Result : Pass";
+                    statusElement.style.color = "green";
+                } else {
+                    statusElement.textContent = "Final Result : Fail";
+                    statusElement.style.color = "red";
+                }
+
+                // Pie & Bar Charts
+                const pieCtx = document.getElementById('featureChart').getContext('2d');
+                const barCtx = document.getElementById('barChart').getContext('2d');
+
+                if (window.myPieChart) window.myPieChart.destroy();
+                if (window.myBarChart) window.myBarChart.destroy();
+
+                // Pie Chart
+                window.myPieChart = new Chart(pieCtx, {
+                    type: 'pie',
+                    data: {
+                        labels: data.labels,
+                        datasets: [{
+                            data: data.importances,
+                            backgroundColor: [
+                                '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0',
+                                '#9966FF', '#FF9F40', '#FF6384', '#36A2EB'
+                            ]
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: { position: 'right' },
+                            title: { display: true, text: 'Impact of Each Factor (Pie Chart)' }
+                        }
+                    }
+                });
+
+                // Bar Graph
+                window.myBarChart = new Chart(barCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: data.labels,
+                        datasets: [{
+                            label: 'Factor Contribution',
+                            data: data.importances,
+                            backgroundColor: '#36A2EB',
+                            borderColor: '#36A2EB',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: { display: false },
+                            title: { display: true, text: 'Impact of Each Factor (Bar Graph)' }
+                        },
+                        scales: {
+                            y: { beginAtZero: true, title: { display: true, text: 'Contribution Value' } },
+                            x: { title: { display: true, text: 'Factors' } }
+                        }
+                    }
+                });
+
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    });
+</script>
+{% endblock %}

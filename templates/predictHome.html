@@ -1,0 +1,214 @@
+
+
+{% block content %}
+
+<style>
+    body {
+        background-color: #1a1a1d; /* Darker background color */
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .prediction-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin-top: 20px;
+        width: 60%;
+        margin: 20px;
+        background-color: #2a2a2d;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    #prediction-container h1 {
+        color: #f0a500;
+        margin-bottom: 30px;
+    }
+
+    #predictionForm {
+        width: 95%;
+        margin: 0;
+        padding: 15px;
+    }
+
+    #predictionForm label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    #predictionForm input,
+    #predictionForm select,
+    #predictionForm option {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #38383b;
+        border: 1px solid #f0a500;
+        border-radius: 5px;
+        color: white;
+        transition: ease-in-out 0.5s;
+    }
+    .predictionForm select:hover{
+        background-color: #f0a500ed;
+        color: black;
+    }
+
+    .predictionForm input[type="submit"] {
+        background-color: #f0a500;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .predictionForm input[type="submit"]:hover {
+        background-color: #ffbb33;
+    }
+    #results h2,
+    .prediction-container h1
+    {
+        color: #ffbb33;
+    }
+
+    
+</style>
+<div class="prediction-container">
+<h1>Access Student Performance</h1>
+
+<form id="predictionForm" method="POST">
+    <label>Gender:</label>
+    <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br><br>
+
+    <label>Parental Level of Education:</label>
+    <select name="parental level of education">
+        <option value="high school">High School</option>
+        <option value="some college">Some College</option>
+        <option value="associate's degree">Associate's Degree</option>
+        <option value="bachelor's degree">Bachelor's Degree</option>
+        <option value="master's degree">Master's Degree</option>
+    </select><br><br>
+
+        <label>Test Preparation Course:</label>
+        <select name="test preparation course">
+                <option value="completed">Completed</option>
+                <option value="none">None</option>
+            </select><br><br>
+
+        <label>Participating in Sports:</label>
+        <select name="Participating in sports">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+        <label>Subject 1:</label>
+        <input type="number" name="Subject 1" required min="0" max="100"><br><br>
+
+        <label>Subject 2:</label>
+        <input type="number" name="Subject 2" required min="0" max="100"><br><br>
+
+        <label>Subject 3:</label>
+        <input type="number" name="Subject 3" required min="0" max="100"><br><br>
+
+        <label>Subject 4:</label>
+        <input type="number" name="Subject 4" required min="0" max="100"><br><br>
+
+        <button type="submit">Performance Analyse</button>
+</form>
+
+<div id="results" style="margin-top: 20px;">
+        <h2>Analysed Score is: <span id="prediction"></span>%</h2>
+    <!--     <h2>Average Score: <span id="average_score"></span>%</h2> -->
+        <canvas id="featureChart" width="400" height="400"></canvas>
+        <canvas id="barChart" width="400" height="400" style="margin-top: 20px;"></canvas>
+</div>
+</div>
+<!-- Load Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const predictionForm = document.getElementById('predictionForm');
+
+        predictionForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const formData = new FormData(predictionForm);
+
+            fetch('/predict', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('prediction').textContent = data.prediction;
+                    document.getElementById('average_score').textContent = data.average_score;
+
+                    const pieCtx = document.getElementById('featureChart').getContext('2d');
+                    const barCtx = document.getElementById('barChart').getContext('2d');
+
+                    if (window.myPieChart) window.myPieChart.destroy();
+                    if (window.myBarChart) window.myBarChart.destroy();
+
+                    // Generate Pie Chart
+                    window.myPieChart = new Chart(pieCtx, {
+                        type: 'pie',
+                        data: {
+                            labels: data.labels,
+                            datasets: [{
+                                data: data.importances,
+                                backgroundColor: [
+                                    '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0',
+                                    '#9966FF', '#FF9F40', '#FF6384', '#36A2EB'
+                                ]
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: { position: 'right' },
+                                title: { display: true, text: 'Impact of Each Factor (Pie Chart)' }
+                            }
+                        }
+                    });
+
+                    // Generate Bar Graph
+                    window.myBarChart = new Chart(barCtx, {
+                        type: 'bar',
+                        data: {
+                            labels: data.labels,
+                            datasets: [{
+                                label: 'Factor Contribution',
+                                data: data.importances,
+                                backgroundColor: '#36A2EB',
+                                borderColor: '#36A2EB',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: { display: false },
+                                title: { display: true, text: 'Impact of Each Factor (Bar Graph)' }
+                            },
+                            scales: {
+                                y: { beginAtZero: true, title: { display: true, text: 'Contribution Value' } },
+                                x: { title: { display: true, text: 'Factors' } }
+                            }
+                        }
+                    });
+
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    });
+</script>
+{% endblock %}

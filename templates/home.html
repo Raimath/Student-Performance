@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <!-- <h1>Welcome to Student Performance Prediction</h1>
+<p>This is the home page.</p> -->
+<style>
+    .home-container{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+    }
+</style>
+<div class="home-container">
+
+    {% include 'welcome.html' %}
+    {% include 'aboutHome.html' %}
+
+    
+    {% include 'addDataHome.html' %}
+
+    {% include 'serviceHome.html' %}
+
+
+    {% include 'contactHome.html' %}
+
+</div>
+{% endblock %}

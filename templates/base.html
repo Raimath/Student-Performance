@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>{% block title %}Student Performance{% endblock %}</title>
+    <style>
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            position: sticky;
+            top: 0;
+            z-index: 99;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        .navbar a.active {
+        background-color: #f0a500;
+        color: #1a1a1d;
+        border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            /* Dark Background */
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10%;
+        }
+
+        .footer-section {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .footer-section h2 {
+            color: #f0a500;
+            /* Golden Color */
+            margin-bottom: 15px;
+        }
+
+        .footer-section p,
+        .footer-section ul {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+        }
+
+        .footer-section ul li a:hover {
+            color: #f0a500;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            background-color: #38383b;
+            padding: 10px;
+        }
+        .footer-bottom a{
+            color: white;
+        }
+
+        #logo{
+            color: #f0a500;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-right: 15rem;
+        }
+
+        #logo:hover{
+            background-color: transparent;
+
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <div class="navbar">
+        
+            
+        <a href="/" class="{% if request.path == '/' %}{% endif %}" id='logo'>Student Performance</a>
+        <a href="/home" class="{% if request.path == '/home' %}active{% endif %}">Home</a>
+        <a href="/predict-page" class="{% if request.path == '/predict-page' %}active{% endif %}">Analyse Performance</a>
+        <a href="/dataset" class="{% if request.path == '/dataset' %}active{% endif %}">Show Dataset</a>
+        <a href="/add-data" class="{% if request.path == '/add-data' %}active{% endif %}">Add Data</a>
+        <a href="/about" class="{% if request.path == '/about' %}active{% endif %}">About</a>
+        <a href="/service" class="{% if request.path == '/service' %}active{% endif %}">Services</a>
+        <a href="/contact" class="{% if request.path == '/contact' %}active{% endif %}">Contact</a>
+        <!-- <a href="/login" class="{% if request.path == '/login' %}active{% endif %}">Login</a> -->
+    </div>
+
+    <div class="main-container">
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>Student Performance Analysis</h2>
+                <p>
+                    A comprehensive tool to analyze and predict student performance based on various factors.
+                    Enhance learning and teaching strategies with accurate performance insights.
+                </p>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/service">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p>Email: raimathworks@gmail.com</p>
+                <p>Phone: +91 88584 56420</p>
+                <p>Address: Bangalore, India</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Student Performance Analysis | All Rights Reserved <br>
+            This Website is Made By <a href="https://www.linkedin.com/in/raimath-ali/">Raimath</a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

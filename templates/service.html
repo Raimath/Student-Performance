@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block title %}Our Services{% endblock %}
+
+{% block content %}
+<style>
+    body {
+        background-color: #1a1a1d; /* Darker background color */
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .service-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+        margin-top: 20px;
+        width: 85%;
+        gap: 100px;
+    }
+
+    .service-text {
+        max-width: 600px;
+    }
+
+    .service-text h1 {
+        color: #f0a500;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .service-text p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .service-text ul {
+        padding-left: 20px;
+    }
+
+    .service-text ul li {
+        margin-bottom: 10px;
+    }
+
+    .service-image img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+</style>
+
+<div class="service-container">
+    <div class="service-image">
+        <img src="https://img.freepik.com/free-vector/learning-management-system-abstract-concept-illustration-educational-technology-online-learning-delivery-software-application-training-course-tutoring-program-access_335657-3474.jpg?t=st=1741860795~exp=1741864395~hmac=1a543f34596936dca7e478a953a9a0d3c67550d6c5cf4b565c8dadb259ba1b7e&w=900" 
+             alt="Our Services">
+    </div>
+    <div class="service-text">
+        <h1>Our Services</h1>
+        <p>
+            We offer a powerful and comprehensive Student Performance Prediction System designed to enhance learning experiences 
+            and help educators, parents, and students make data-driven decisions. Our services focus on delivering accurate predictions and 
+            insightful analysis through a smooth and interactive user interface.
+        </p>
+        <p>
+            <strong>Our Services Include:</strong>
+            <ul>
+                <li>📊 Data Upload & Model Training: Effortlessly upload datasets and train models for accurate performance analysis.</li>
+                <li>📈 Real-Time Analysis: Generate instant predictions based on user inputs with high precision.</li>
+                <li>📋 Performance Visualization: View results via detailed pie charts and bar graphs for clear insights.</li>
+                <li>📝 Custom Analysis Reports: Generate comprehensive reports to highlight strengths and areas for improvement.</li>
+                <li>💡 Interactive User Interface: Experience a sleek design with smooth animations and seamless navigation.</li>
+            </ul>
+        </p>
+        <p>
+            Our goal is to provide you with a user-friendly and effective tool to assist in enhancing student performance 
+            through data-driven insights and visual analysis.
+        </p>
+    </div>
+    
+    
+    
+</div>
+{% endblock %}
